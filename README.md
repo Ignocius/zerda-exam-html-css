@@ -82,7 +82,7 @@ Add your answer to this readme file, commit your changes to this repository.
 ```
 #### Your answer: [2p]
 First the blue cube, so the basic principles about this is the position value, it is displayed: absolute (blue cube), an element that is positioned absolutely is taken out of the flow and thus takes up no space when placing other elements. The absolutely positioned element is positioned relative to nearest positioned ancestor (non-static). In this case that is the body, and it is positioned away from it top: 20px, and left 20px. 
-So the yellow cube is inside within the "foo" so it is positioned absolutely to the foo, so it is positioned away from the blue cube's corner, if we turn of the top and left attribute that we can se it stick to the left corner. So the yellow one is away the foo left: 20px right: px.
+So the yellow cube is inside within the "foo" so it is positioned absolutely to the foo, so it is positioned away from the blue cube's corner, if we turn off the top and left attribute that we can see it stick to the left corner. So the yellow one is away the foo left: 20px right: 20px.
 
 ## 3. Explain concepts (~15 minutes) [4 points]
 Add your answer to this readme file, commit your changes to this repository.
@@ -98,4 +98,4 @@ And what does the inline does? An inline element will accept margin and padding,
 ### What is the difference between a `<section>` and an `<article>` element? Name one good example of using an `<article>`.
 #### Your answer: [2p]
 article: An article is an independent, stand-alone piece of discrete content. Think of a blogpost, or a news item.
-sectiom: on the other hand, isn’t “a self-contained composition in a document, page, application, or site and that is intended to be independently distributable or reusable”. It’s either a way of sectioning a page into different subject areas, or sectioning an article into … well, sections. For example I'm using sections since I now it's better than div, cause' google's algorytms does not like divs anymore :)
+sectiom: on the other hand, isn’t “a self-contained composition in a document, page, application, or site and that is intended to be independently distributable or reusable”. It’s either a way of sectioning a page into different subject areas, or sectioning an article into … well, sections. For example I'm using sections since we've learned about it. It's better than div, cause' google's algorithms does not like divs anymore, it sees an empty element :)
