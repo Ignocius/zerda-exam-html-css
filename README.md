@@ -81,7 +81,8 @@ Add your answer to this readme file, commit your changes to this repository.
 </html>
 ```
 #### Your answer: [2p]
-
+First the blue cube, so the basic principles about this is the position value, it is displayed: absolute (blue cube), an element that is positioned absolutely is taken out of the flow and thus takes up no space when placing other elements. The absolutely positioned element is positioned relative to nearest positioned ancestor (non-static). In this case that is the body, and it is positioned away from it top: 20px, and left 20px. 
+So the yellow cube is inside within the "foo" so it is positioned absolutely to the foo, so it is positioned away from the blue cube's corner, if we turn of the top and left attribute that we can se it stick to the left corner. So the yellow one is away the foo left: 20px right: px.
 
 ## 3. Explain concepts (~15 minutes) [4 points]
 Add your answer to this readme file, commit your changes to this repository.
