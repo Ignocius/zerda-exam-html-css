@@ -18,8 +18,8 @@ p {
   padding: 0;
 }
 
-table {
-  border-collapse: separate;
+td {
+  padding-left: 30px;
 }
 
 /*-------Styling the seperate ducks together---------*/
@@ -41,6 +41,7 @@ table {
 
 .duck1-inner, .duck2-inner {
   padding: 0 15px;
+  flex: 1 auto;
 }
 
 .duck1-inner-Text,
@@ -52,6 +53,7 @@ table {
 .duck2-inner-Flexbottom {
   display: flex;
   justify-content: space-between;
+  flex: 1 auto;
 }
 
 .table-extra-padding {
