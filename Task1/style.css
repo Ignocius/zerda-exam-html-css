@@ -1,0 +1,74 @@
+main {
+  margin: 0 auto;
+  display: flex;
+  width: 32%;
+  flex-direction: column;
+  font-size: 14px;
+  font-family: Arial, sans-serif
+}
+
+h1 {
+  font-size: 28px;
+  margin: 15px 0;
+  font-weight: normal;
+}
+
+p {
+  margin: 18px 10px 10px 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: separate;
+}
+
+.duck1, .duck2 {
+  margin-top: 16px;
+}
+
+.duck1, .duck2 {
+  background: #FFFFF0;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.duck1-inner, .duck2-inner {
+  padding: 0 15px;
+}
+
+.duck1-inner-Text,
+.duck2-inner-Text {
+  margin-bottom: 15px;
+}
+
+.duck1-inner-Flexbottom,
+.duck2-inner-Flexbottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table-extra-padding {
+  padding-right: 25px;
+}
+
+.duck1-inner-Flexbottom img,
+.duck2-inner-Flexbottom img {
+  width: 22px;
+  height: 22px;
+  margin-top: 20px;
+}
+
+.duck1-innerImg, .duck2-innerImg {
+  border-right: 9px solid #536194;
+}
+
+.duck1-innerImg img, .duck2-innerImg img {
+  width: 166px;
+  height: 165px;
+}
+
+/*---------Duck 2 style--------------*/
+
+.duck2 {
+  background: #ABB7E0;
+}
